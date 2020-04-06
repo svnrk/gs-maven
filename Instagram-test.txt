@@ -1,0 +1,12 @@
+Instagrammis testimiseks: Pildi like-imine.
+
+Telefonis ja veebiliideses eraldi:
+
+like lisamine üldfeedis.
+like lisamine kasutaja konto lehel.
+like eemaldamine üldfeedis.
+like eemaldamine kasutaja konto lehel.
+like-ide loendamine: loendi suurenemine ja vähenemine. 
+like-ide loendi kuvamine kasutajale.
+like-ide loendi kuvamine teistele.
+jne.
