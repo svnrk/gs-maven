@@ -5,6 +5,10 @@ import org.joda.time.LocalTime;
 
 public class HelloWorld {
     public static void main(String[] args) {
+
+        Counter cntr = new Counter();
+        System.out.println(cntr.nameLetterCount("kalamaja"));
+
         System.out.println("Enter name");
 
         Scanner input = new Scanner(System.in);  // Create a Scanner object

@@ -10,9 +10,6 @@ public class CounterTest {
     String name3 = "";  // len 2
     Counter counts = new Counter();
 
-
-
-
     @Test
     public void counterNameLength() {
         assertEquals(7, counts.nameLength(name1));

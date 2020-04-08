@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85d6d058-e21b-4721-a1e3-faf43e49c087" name="Default Changelist" comment="" />
+    <list default="true" id="85d6d058-e21b-4721-a1e3-faf43e49c087" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/CounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/GreeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/GreeterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/Greeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/Greeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hello/CounterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hello/CounterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hello/GreeterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hello/GreeterTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aAPeapEIBV07WhYgvFuT5OFEKw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.GreeterTest">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -67,11 +83,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GreeterTest.greeterSaysHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gs-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello" />
+      <option name="MAIN_CLASS_NAME" value="hello.GreeterTest" />
+      <option name="METHOD_NAME" value="greeterSaysHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreeterTest.greeterSaysHelloWithMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gs-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello" />
+      <option name="MAIN_CLASS_NAME" value="hello.GreeterTest" />
+      <option name="METHOD_NAME" value="greeterSaysHelloWithMock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GreeterTest" />
-        <item itemvalue="JUnit.CounterTest" />
+        <item itemvalue="JUnit.GreeterTest.greeterSaysHelloWithMock" />
         <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="JUnit.CounterTest" />
+        <item itemvalue="JUnit.GreeterTest.greeterSaysHello" />
       </list>
     </recent_temporary>
   </component>
@@ -86,21 +136,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1586197935663">
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1586354769213">
       <screen x="0" y="23" width="1920" height="1131" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1131@0.23.1920.1131" timestamp="1586197935663" />
-    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1586197935662">
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1131@0.23.1920.1131" timestamp="1586354769213" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1586354769212">
       <screen x="0" y="23" width="1920" height="1131" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1920.1131@0.23.1920.1131" timestamp="1586197935662" />
-    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1586197935661">
+    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1920.1131@0.23.1920.1131" timestamp="1586354769212" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1586354769211">
       <screen x="0" y="23" width="1920" height="1131" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1920.1131@0.23.1920.1131" timestamp="1586197935661" />
-    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1586197935663">
+    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1920.1131@0.23.1920.1131" timestamp="1586354769211" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1586354769212">
       <screen x="0" y="23" width="1920" height="1131" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1920.1131@0.23.1920.1131" timestamp="1586197935663" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1920.1131@0.23.1920.1131" timestamp="1586354769212" />
+    <state width="1358" height="334" key="GridCell.Tab.1.bottom" timestamp="1586350667999">
+      <screen x="0" y="23" width="1920" height="1131" />
+    </state>
+    <state width="1358" height="334" key="GridCell.Tab.1.bottom/0.23.1920.1131@0.23.1920.1131" timestamp="1586350667999" />
+    <state width="1358" height="334" key="GridCell.Tab.1.center" timestamp="1586350667999">
+      <screen x="0" y="23" width="1920" height="1131" />
+    </state>
+    <state width="1358" height="334" key="GridCell.Tab.1.center/0.23.1920.1131@0.23.1920.1131" timestamp="1586350667999" />
+    <state width="1358" height="334" key="GridCell.Tab.1.left" timestamp="1586350667998">
+      <screen x="0" y="23" width="1920" height="1131" />
+    </state>
+    <state width="1358" height="334" key="GridCell.Tab.1.left/0.23.1920.1131@0.23.1920.1131" timestamp="1586350667998" />
+    <state width="1358" height="334" key="GridCell.Tab.1.right" timestamp="1586350667999">
+      <screen x="0" y="23" width="1920" height="1131" />
+    </state>
+    <state width="1358" height="334" key="GridCell.Tab.1.right/0.23.1920.1131@0.23.1920.1131" timestamp="1586350667999" />
+    <state x="96" y="353" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586337939509">
+      <screen x="0" y="23" width="1920" height="1131" />
+    </state>
+    <state x="96" y="353" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.1131@0.23.1920.1131" timestamp="1586337939509" />
   </component>
 </project>
