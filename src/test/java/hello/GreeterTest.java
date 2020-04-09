@@ -16,11 +16,10 @@ import org.mockito.MockitoAnnotations;
 public class GreeterTest {
 
     @Mock
-    Counter counter;
+    private Counter counter;
 
     @InjectMocks
-//    public Greeter mockGreeter;
-    public Greeter mockGreeter = new Greeter();
+    private Greeter mockGreeter;
 
     @Before
     public void init() {
@@ -31,15 +30,13 @@ public class GreeterTest {
     public void greeterSaysHelloWithMock() {
         //given
         when(counter.nameLetterCount("kalamaja")).thenReturn(4);
-        when(counter.nameLength("kalamaja")).thenReturn(4);
+        when(counter.nameLength("kalamaja")).thenReturn(6);
+        
         //when
         String result = mockGreeter.sayHello("kalamaja");
 
-        System.out.println(counter.nameLength("kalamaja"));             // saab counteri tulemuseks 4
-        System.out.println(mockGreeter.sayHello("kalamaja"));   // saab counteri tulemuseks 8
-
         //then
-        assertThat(result, containsString("4"));
+        assertEquals("Hello kalamaja, with name length 6 and 4 letters.", result);
 
     }
 

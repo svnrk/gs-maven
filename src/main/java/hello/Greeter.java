@@ -1,12 +1,14 @@
 package hello;
 
 public class Greeter {
+
+    Counter counter = new Counter();
+
     public String sayHello() {
         return "Hello!";
     }
 
     public String sayHello(String name) {
-        Counter counter = new Counter();
 
         int len = counter.nameLength(name);
         int letters = counter.nameLetterCount(name);
