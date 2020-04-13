@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85d6d058-e21b-4721-a1e3-faf43e49c087" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/Greeter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hello/GreeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/GreeterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hello/Greeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/Greeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hello/GreeterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hello/GreeterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aAPeapEIBV07WhYgvFuT5OFEKw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -131,22 +131,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1586429537728">
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1586762445742">
       <screen x="0" y="23" width="1920" height="1131" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1131@0.23.1920.1131" timestamp="1586429537728" />
-    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1586429537727">
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1131@0.23.1920.1131" timestamp="1586762445742" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1586762445741">
       <screen x="0" y="23" width="1920" height="1131" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1920.1131@0.23.1920.1131" timestamp="1586429537727" />
-    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1586429537726">
+    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1920.1131@0.23.1920.1131" timestamp="1586762445741" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1586762445741">
       <screen x="0" y="23" width="1920" height="1131" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1920.1131@0.23.1920.1131" timestamp="1586429537726" />
-    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1586429537728">
+    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1920.1131@0.23.1920.1131" timestamp="1586762445741" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1586762445742">
       <screen x="0" y="23" width="1920" height="1131" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1920.1131@0.23.1920.1131" timestamp="1586429537728" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1920.1131@0.23.1920.1131" timestamp="1586762445742" />
     <state width="1358" height="334" key="GridCell.Tab.1.bottom" timestamp="1586356572320">
       <screen x="0" y="23" width="1920" height="1131" />
     </state>

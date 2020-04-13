@@ -31,7 +31,7 @@ public class GreeterTest {
         //given
         when(counter.nameLetterCount("kalamaja")).thenReturn(4);
         when(counter.nameLength("kalamaja")).thenReturn(6);
-        
+
         //when
         String result = mockGreeter.sayHello("kalamaja");
 
