@@ -2,12 +2,12 @@ package hello;
 
 public class Counter {
 
-    public static int nameLength(String name){
+    public int nameLength(String name){
         int len = name.length();
         return len;
     }
 
-    public static int nameLetterCount(String name){
+    public int nameLetterCount(String name){
         int len = name.length();
         int letterCount = 0;
         for (int i = 0; i<len; i++){
@@ -16,5 +16,8 @@ public class Counter {
             }
         }
         return letterCount;
+    }
+    public int count(String name) {
+        return name.length();
     }
 }
